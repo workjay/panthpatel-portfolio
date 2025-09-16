@@ -40,7 +40,7 @@ import {
 
 export const EXTERNAL_LINKS = {
   GITHUB: "https://github.com/dev-ronak-patel",
-  GITHUB_REPO: "https://github.com/workjay/ronak-portfolio",
+  GITHUB_REPO: "https://github.com/workjay/panthpatel-portfolio",
 };
 
 export const NAV_LINKS = [
