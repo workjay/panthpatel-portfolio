@@ -215,7 +215,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     // url: "https://upwork.com/freelancers/ronupatel?mp_source=share",
     url: "https://upwork.com",
     position: "Freelancer",
-    startDate: new Date(2015, 7),
+    startDate: new Date(2020, 7),
     currentlyWorkHere: true,
     summary: [
       "As a Full-Stack Developer, I continued working with React, Next.js, Node.js, Laravel, Nest.js, MySQL, and PostgreSQL",

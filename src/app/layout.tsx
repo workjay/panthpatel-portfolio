@@ -9,10 +9,10 @@ import Footer from "@/components/layout/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const title = "Ronak Patel | Full Stack Developer";
+const title = "Panth Patel | Full Stack Developer";
 const description =
   "A self-proclaimed developer who specializes in full stack development.";
-const url = "https://ronakpatel.vercel.app/";
+const url = "https://panthpatel.vercel.app/";
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "Web Developer",
     "Software Developer",
   ],
-  creator: "Ronak Patel",
+  creator: "Panth Patel",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },

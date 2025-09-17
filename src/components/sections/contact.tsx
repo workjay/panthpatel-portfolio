@@ -13,8 +13,8 @@ import useWindowSize from "@/hooks/use-window-size";
 import { copyTextToClipboard } from "@/lib/utils";
 import Link from "next/link";
 
-let email = "ronu5879@gmail.com";
-let phone = "+91 9558358948";
+let email = "panthpatel239@gmail.com";
+let phone = "+91 7861040485";
 
 type CopyValue = "email" | "phone";
 
@@ -93,7 +93,7 @@ const ContactSection = () => {
           <Typography className="text-center">
             You may also find me on these platforms!
           </Typography>
-          <SocialIcons />
+          {/* <SocialIcons /> */}
         </div>
       </div>
     </Container>

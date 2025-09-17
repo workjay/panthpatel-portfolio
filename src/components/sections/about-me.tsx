@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import SagarFullPose from "/public/images/ronak-about-me.jpeg";
+import SagarFullPose from "/public/images/panth-about-me.jpeg";
 import Tag from "@/components/data-display/tag";
 import Container from "@/components/layout/container";
 import Typography from "@/components/general/typography";
@@ -42,7 +42,7 @@ const AboutMeSection = () => {
             code matters to me.
           </Typography>
           <Typography>
-            I began my journey as a web developer in 2015, and over the past{" "}
+            I began my journey as a web developer in 2020, and over the past{" "}
             {calculateExperience()} years, I&apos;ve continuously grown, taking
             on new challenges and staying up to date with the latest
             technologies. Today, I&apos;m building cutting-edge web applications
@@ -56,9 +56,9 @@ const AboutMeSection = () => {
           <Typography>Finally, some quick bits about me.</Typography>
           <div className="flex flex-col gap-2 md:flex-row md:gap-6">
             <ul className="flex list-inside list-disc flex-col gap-2">
-              <Typography component="li">
+              {/* <Typography component="li">
                 M.E. in Computer Science & Engineering
-              </Typography>
+              </Typography> */}
               <Typography component="li">Full time freelancer</Typography>
             </ul>
             <ul className="flex list-inside list-disc flex-col gap-2">
